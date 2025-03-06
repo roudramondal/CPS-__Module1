@@ -18,9 +18,8 @@ int main()
     for (int j = 0; j < m;j++)
        {
         sum+=arr[i][j];
-        cout << arr[i][j] << " ";
        }
-       cout << endl;
   }
+  cout<<sum<<endl;
   return 0;
 }
