@@ -14,5 +14,8 @@ int main()
     }
   }
   cout << g << endl;
+
+  // short formula to finding gcd 
+  // cout<<__gcd(x,y) <<endl;
   return 0;
 }
