@@ -6,14 +6,14 @@ int  main ()
   int n, m, k;
   cin >> n >> k >> m;
   int s = 0;
-  for (int i = 0; i < n - 1;i++)
+  for (int i = 0; i < n - 1;i++)// loop 
   {
     int a;
     cin >> a;
     s += a;
   }
   int remaining = n * m - s;
-  if (remaining>k)
+  if (remaining>k)// condition check 
   {
     cout << "-1" << endl;
   }
